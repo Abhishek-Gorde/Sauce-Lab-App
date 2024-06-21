@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>TestNG:  Group_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Group_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 18 13:06:17 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41444 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td>Retest </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Checkout_Step_One_Page_Test.verifyEnterInformationTest()'><b>verifyEnterInformationTest</b><br>Test class: testCases.Checkout_Step_One_Page_Test<br/>
+<a href="#Output-1266048658" onClick='toggleBox("Output-1266048658", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1266048658" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1266048658">
+After clicking on Continue btn the URL is: https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_One_Page_Test@5ddeb7cb</td></tr>
+<tr>
+<td title='testCases.Checkout_Step_One_Page_Test.verifyCheck1PageTitleTest()'><b>verifyCheck1PageTitleTest</b><br>Test class: testCases.Checkout_Step_One_Page_Test<br/>
+<a href="#Output-1282035709" onClick='toggleBox("Output-1282035709", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1282035709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1282035709">
+Check Step one Page T is:Checkout: Your Information<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_One_Page_Test@5ddeb7cb</td></tr>
+<tr>
+<td title='testCases.Checkout_Step_One_Page_Test.verifyCheck1PageLogoTest()'><b>verifyCheck1PageLogoTest</b><br>Test class: testCases.Checkout_Step_One_Page_Test<br/>
+<a href="#Output-1442089085" onClick='toggleBox("Output-1442089085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442089085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442089085">
+Check Step one Page Logo is:Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_One_Page_Test@5ddeb7cb</td></tr>
+<tr>
+<td title='testCases.LoginPage_Test.loginToApplicationTest()'><b>loginToApplicationTest</b><br>Test class: testCases.LoginPage_Test<br/>
+<a href="#Output-1444500451" onClick='toggleBox("Output-1444500451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444500451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444500451">
+Login Successful:https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testCases.LoginPage_Test@5f049ea1</td></tr>
+</table><p>
+</body>
+</html>

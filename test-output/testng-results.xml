@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successful:https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[Title of Application:Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[URL of Application:https://www.saucedemo.com/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-20T14:16:39 IST" name="Default suite" finished-at="2024-06-20T14:16:59 IST" duration-ms="19841">
+    <groups>
+    </groups>
+    <test started-at="2024-06-20T14:16:39 IST" name="Default test" finished-at="2024-06-20T14:16:59 IST" duration-ms="19841">
+      <class name="testCases.LoginPage_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:39 IST" name="setUp" finished-at="2024-06-20T14:16:47 IST" duration-ms="7525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:47 IST" name="loginToApplicationTest" finished-at="2024-06-20T14:16:50 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful:https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:50 IST" name="closeBrowser" finished-at="2024-06-20T14:16:51 IST" duration-ms="1149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplicationTest status=SUCCESS method=LoginPage_Test.loginToApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833] output=Login Successful:https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:51 IST" name="setUp" finished-at="2024-06-20T14:16:54 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleOfApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:54 IST" name="verifyTitleOfApplicationTest" finished-at="2024-06-20T14:16:55 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of Application:Swag Labs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:55 IST" name="closeBrowser" finished-at="2024-06-20T14:16:55 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfApplicationTest status=SUCCESS method=LoginPage_Test.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833] output=Title of Application:Swag Labs]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:55 IST" name="setUp" finished-at="2024-06-20T14:16:58 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyURLOFApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:58 IST" name="verifyURLOFApplicationTest" finished-at="2024-06-20T14:16:58 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL of Application:https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLOFApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPage_Test@27e47833]" started-at="2024-06-20T14:16:59 IST" name="closeBrowser" finished-at="2024-06-20T14:16:59 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLOFApplicationTest status=SUCCESS method=LoginPage_Test.verifyURLOFApplicationTest()[pri:0, instance:testCases.LoginPage_Test@27e47833] output=URL of Application:https://www.saucedemo.com/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LoginPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
